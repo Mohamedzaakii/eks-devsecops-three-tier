@@ -1,0 +1,117 @@
+# ======================
+# Terraform
+# ======================
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+terraform.rc
+.terraformrc
+crash.log
+crash.*.log
+
+# ======================
+# Node.js / React (Frontend & Backend)
+# ======================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.env
+.env.local
+.env.production
+.env.development
+
+# Build outputs
+/build
+/dist
+/frontend/build
+/backend/dist
+
+# ======================
+# Docker
+# ======================
+*.pid
+docker-compose.override.yml
+.dockerignore
+
+# ======================
+# SonarQube / Trivy
+# ======================
+.sonarqube/
+.sonar/
+trivy-reports/
+*.trivy
+
+# ======================
+# Jenkins
+# ======================
+.jenkins/
+jenkins/plugins/
+*.jenkins
+secrets/
+
+# ======================
+# AWS & Credentials
+# ======================
+*.pem
+*.key
+*.p12
+*.cert
+aws-credentials
+.aws/
+secrets.auto.tfvars
+terraform.tfvars
+terraform.tfvars.json
+
+# ======================
+# IDE / Editor Files
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.suo
+*.user
+
+# ======================
+# Kubernetes / Helm
+# ======================
+*.kubeconfig
+kubeconfig
+helm/values.override.yaml
+*.secret.yaml
+
+# ======================
+# Logs
+# ======================
+*.log
+logs/
+**/logs/
+
+# ======================
+# OS Files
+# ======================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ======================
+# Application Specific
+# ======================
+coverage/
+.nyc_output/
+.env.local
+.env.production.local
+.env.test
