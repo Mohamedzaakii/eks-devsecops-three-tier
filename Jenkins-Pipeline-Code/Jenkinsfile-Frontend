@@ -61,7 +61,7 @@ pipeline {
                     dir('Application-Code/frontend') {
                         sh 'docker system prune -f'
                         sh 'docker container prune -f'
-                        sh "docker build -t ${AWS_ECR_REPO_NAME} ."
+                        sh "docker build --build-arg REACT_APP_BACKEND_URL=http://api.three-tier.svc.cluster.local:3500/api/tasks -t ${AWS_ECR_REPO_NAME} ."
                     }
                 }
             }
