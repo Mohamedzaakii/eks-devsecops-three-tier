@@ -22,8 +22,8 @@
 ## 📌 Table of Contents
 
 - [Project Overview](#-project-overview)
-- [Tech Stack](#️-tech-stack)
 - [Key Features](#-key-features)
+- [Tech Stack](#️-tech-stack)
 - [Project Structure](#-project-structure)
 - [Implementation Steps](#-implementation-steps)
 - [Results](#-results)
